@@ -11,7 +11,7 @@ type PostProps = {
     post: {
       slug: string
       title: string
-      date: string
+      // date: string
       tags?: {
         name: string
         slug: string
