@@ -42,7 +42,7 @@ const Blog = ({ posts }: PostsProps) => {
           View all tags
         </TLink>
       </Flex>
-      <Listing posts={posts} sx={{ mt: [4, 5] }} />
+      {/* <Listing posts={posts} sx={{ mt: [4, 5] }} /> */}
     </Layout>
   )
 }
