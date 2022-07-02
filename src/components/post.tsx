@@ -48,7 +48,6 @@ const Post = ({ data: { post } }: PostProps) => (
       {post.title}
     </Heading>
     <p sx={{ color: `secondary`, mt: 3, a: { color: `secondary` }, fontSize: [1, 1, 2] }}>
-      {post.timeToRead && ` — `}
       {post.timeToRead && <span>{post.timeToRead} min read</span>}
     </p>
     <section
